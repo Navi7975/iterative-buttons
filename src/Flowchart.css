@@ -1,0 +1,163 @@
+
+  
+  .flow-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+  }
+  
+  .flow-button {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2e6ca6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .flow-button:hover {
+    background-color: #245582;
+  }
+  
+  .arrow {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+ 
+  
+  .flow-button {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2e6ca6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .flow-button:hover {
+    background-color: #245582;
+  }
+  
+  .arrow {
+ 
+    font-size: 60px; /* Increased font size for larger arrows */
+    color: #333;
+    line-height: 1.2; /* Adjust line height for vertical centering */
+  }
+  .flowchart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .flow-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .flow-button {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+  }
+  
+  .arrow {
+    margin-top: 10px;
+    font-size: 40px;
+    color: #333;
+    line-height: 1.2;
+  }
+
+  .flowchart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .flow-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .flow-button {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2e6ca6; /* Keep buttons blue */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .flow-paragraph {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+  }
+  
+  .arrow {
+    margin-top: 10px;
+ 
+    color: #333;
+    line-height: 1.2;
+  }
+  
+
+  
+ 
+  
+  .flow-button {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2e6ca6; /* Initial blue color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+    border-radius: 20px; /* Added rounded corners */
+  }
+  
+  .flow-paragraph {
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #2e6ca6; /* Initial blue color */
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+    border-radius: 20px; /* Added rounded corners */
+  }
+  
+  .arrow {
+    margin-top: 10px;
+    font-size: 40px;
+    color: #333;
+    line-height: 1.2;
+  }
+  
