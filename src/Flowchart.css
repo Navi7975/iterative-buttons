@@ -136,10 +136,21 @@
     color: white;
     background-color: #2e6ca6; /* Initial blue color */
     border: none;
-    border-radius: 4px;
+    border-radius: 20px; /* Rounded corners */
     cursor: pointer;
     transition: background-color 0.5s ease; /* Smooth transition for color change */
-    border-radius: 20px; /* Added rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+/* Optional: Change shadow on hover */
+.flow-button:hover {
+    background-color: #245a88; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+
+  .flow-button button{
+    box-shadow: 0 4px 8px rgb(0 0 0);
   }
   
   .flow-paragraph {
@@ -160,4 +171,9 @@
     color: #333;
     line-height: 1.2;
   }
-  
+   .flow-item svg{
+    height: 55px;
+    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
