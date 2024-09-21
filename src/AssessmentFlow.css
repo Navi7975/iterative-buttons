@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+  
+
+
+.container {
+  width: 70%;
+  height: 50vh; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Space between containers */
+  
+}
+
+.container1, .container3 {
+  justify-content: center; /* Center button for container 1 and 3 */
+}
+
+.container2 {
+  justify-content: space-between; /* Space buttons in container 2 */
+  padding: 0 20px; /* Optional: add some padding for better spacing */
+}
+
+.center-button, .left-button, .right-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.center-button, .left-button, .right-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Add border radius */
+  background-color: #007BFF; /* Set background color */
+  color: white; /* Text color */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.center-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.center-button, .left-button, .right-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove default border */
+  border-radius: 20px; /* Add border radius */
+  background-color: #007BFF; /* Set background color */
+  color: white; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.855); /* Add box shadow */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.center-button:hover, .left-button:hover, .right-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.901); /* Increase shadow on hover */
+}
+
